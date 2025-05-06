@@ -11,27 +11,6 @@
 </head>
 <body>
 
-<%! int a = 10;%>
-
-<table border="1">
-<tr>
-<th>i</th>
-<th>i*i</th>
-<th>i*i*i</th>
-</tr>
-<% for(int i=1; i<=10; i++){%>
-<tr>
-<td><%=i %></td>
-<td><%=i*i%></td>
-<td><%=i*i*i%></td>
-</tr>
-<% } %>
-
-
-
-
-</table>
-
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">
